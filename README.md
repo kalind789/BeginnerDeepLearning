@@ -28,15 +28,17 @@ Finally, I applied these ideas to a real-world NLP task by **fine-tuning DistilB
 - Evaluated with accuracy, precision, recall, and F1-score  
 
 ---
+## Results 
 
-## 📊 Results
+### 📋 Classification Report
 
-| Metric | Score |
-|---------|-------|
-| Accuracy | **85 %** |
-| Precision | 0.85 |
-| Recall | 0.85 |
-| F1-score | 0.85 |
+| Class      | Precision | Recall | F1-Score | Support |
+|-------------|:----------:|:-------:|:---------:|:--------:|
+| **Negative** | 0.87 | 0.82 | 0.84 | 1511 |
+| **Positive** | 0.83 | 0.87 | 0.85 | 1489 |
+| **Accuracy** |  |  | **0.85** | 3000 |
+| **Macro Avg** | 0.85 | 0.85 | 0.85 | 3000 |
+| **Weighted Avg** | 0.85 | 0.85 | 0.85 | 3000 |
 
 ### Confusion Matrix
 ![IMDB Confusion Matrix](IMDB_CM%20(1).png)
